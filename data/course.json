@@ -1,0 +1,117 @@
+{
+  "exercises": [
+    {
+      "id": "a1-vocab-haus",
+      "tier": "A1",
+      "type": "vocabulary",
+      "prompt": "Translate to English: das Haus",
+      "answers": ["house"],
+      "note": "Noun with article: das Haus"
+    },
+    {
+      "id": "a1-vocab-water",
+      "tier": "A1",
+      "type": "vocabulary",
+      "prompt": "Translate to German (include article): the water",
+      "answers": ["das wasser"],
+      "note": "Neuter noun"
+    },
+    {
+      "id": "a1-pronoun-ich",
+      "tier": "A1",
+      "type": "pronoun",
+      "prompt": "Translate to German: I",
+      "answers": ["ich"],
+      "note": "Personal pronoun"
+    },
+    {
+      "id": "a2-verb-gehen-du",
+      "tier": "A2",
+      "type": "conjugation",
+      "prompt": "Conjugate gehen for 'du' (present): du ____",
+      "answers": ["gehst"],
+      "note": "Regular verb in present tense"
+    },
+    {
+      "id": "a2-grammar-accusative",
+      "tier": "A2",
+      "type": "grammar",
+      "prompt": "Choose the accusative article for masculine noun: Ich sehe ___ Hund.",
+      "answers": ["den"],
+      "note": "Accusative masculine article is den"
+    },
+    {
+      "id": "b1-verb-sein-wir",
+      "tier": "B1",
+      "type": "conjugation",
+      "prompt": "Conjugate sein for 'wir' (simple past): wir ____",
+      "answers": ["waren"],
+      "note": "Simple past of sein"
+    },
+    {
+      "id": "b1-vocab-umwelt",
+      "tier": "B1",
+      "type": "vocabulary",
+      "prompt": "Translate to English: die Umwelt",
+      "answers": ["environment"],
+      "note": "Feminine noun"
+    },
+    {
+      "id": "b2-phrase-subordinate",
+      "tier": "B2",
+      "type": "grammar",
+      "prompt": "Complete the sentence: Ich lerne Deutsch, weil ich in Berlin ___",
+      "answers": ["arbeite"],
+      "note": "Verb goes to the end in subordinate clauses"
+    }
+  ],
+  "conjugations": [
+    {
+      "verb": "sein",
+      "level": "A1-B1",
+      "forms": {
+        "ich": "bin",
+        "du": "bist",
+        "er/sie/es": "ist",
+        "wir": "sind",
+        "ihr": "seid",
+        "sie/Sie": "sind"
+      }
+    },
+    {
+      "verb": "haben",
+      "level": "A1-A2",
+      "forms": {
+        "ich": "habe",
+        "du": "hast",
+        "er/sie/es": "hat",
+        "wir": "haben",
+        "ihr": "habt",
+        "sie/Sie": "haben"
+      }
+    },
+    {
+      "verb": "gehen",
+      "level": "A1-A2",
+      "forms": {
+        "ich": "gehe",
+        "du": "gehst",
+        "er/sie/es": "geht",
+        "wir": "gehen",
+        "ihr": "geht",
+        "sie/Sie": "gehen"
+      }
+    }
+  ],
+  "grammar": [
+    "Nouns are always capitalized in German.",
+    "Each noun has a grammatical gender: der (m), die (f), das (n).",
+    "In subordinate clauses introduced by weil, dass, etc., the conjugated verb goes to the end.",
+    "In accusative case, masculine article changes from der to den."
+  ],
+  "milestones": {
+    "A1": 2,
+    "A2": 4,
+    "B1": 6
+  }
+}
