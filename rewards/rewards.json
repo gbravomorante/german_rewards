@@ -1,0 +1,32 @@
+{
+  "A1": [
+    {
+      "id": "a1-reward-1",
+      "title": "A1 Reward: Starter badge",
+      "type": "image",
+      "path": "rewards/A1/starter-badge.txt"
+    },
+    {
+      "id": "a1-reward-2",
+      "title": "A1 Reward: First streak",
+      "type": "image",
+      "path": "rewards/A1/first-streak.txt"
+    }
+  ],
+  "A2": [
+    {
+      "id": "a2-reward-1",
+      "title": "A2 Reward: Grammar booster",
+      "type": "gif",
+      "path": "rewards/A2/grammar-booster.txt"
+    }
+  ],
+  "B1": [
+    {
+      "id": "b1-reward-1",
+      "title": "B1 Reward: Conversation unlock",
+      "type": "video",
+      "path": "rewards/B1/conversation-unlock.txt"
+    }
+  ]
+}

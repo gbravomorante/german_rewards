@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>German Rewards Trainer</title>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>German Rewards Trainer (A1-B2)</h1>
+      <p class="subtitle">Minimal, local-first learning with spaced repetition and unlockable rewards.</p>
+    </header>
+
+    <main>
+      <section id="user-panel" class="card">
+        <h2>User</h2>
+        <div class="user-controls">
+          <input id="new-username" placeholder="Choose a username" maxlength="24" />
+          <button id="create-user-btn">Create user</button>
+          <select id="user-select"></select>
+          <button id="switch-user-btn">Switch</button>
+        </div>
+        <p id="active-user" class="muted"></p>
+      </section>
+
+      <section id="progress-panel" class="card hidden">
+        <h2>Progress</h2>
+        <div class="progress-grid">
+          <p>Total due now: <strong id="due-count">0</strong></p>
+          <p>Mastered: <strong id="mastered-count">0</strong></p>
+          <p>Attempts: <strong id="attempt-count">0</strong></p>
+          <p>Accuracy: <strong id="accuracy">0%</strong></p>
+        </div>
+      </section>
+
+      <section id="exercise-panel" class="card hidden">
+        <h2>Exercise</h2>
+        <p id="exercise-meta" class="muted"></p>
+        <p id="exercise-prompt"></p>
+        <input id="exercise-answer" placeholder="Type your answer" />
+        <div class="exercise-actions">
+          <button id="check-answer-btn">Check</button>
+          <button id="skip-btn">Skip</button>
+          <button id="show-solution-btn">Show solution</button>
+        </div>
+        <p id="exercise-feedback"></p>
+      </section>
+
+      <section id="reference-panel" class="card hidden">
+        <h2>Reference</h2>
+        <details open>
+          <summary>Verb conjugation tables</summary>
+          <div id="conjugation-table"></div>
+        </details>
+        <details>
+          <summary>Grammar notes</summary>
+          <ul id="grammar-list"></ul>
+        </details>
+      </section>
+
+      <section id="rewards-panel" class="card hidden">
+        <h2>Rewards vault</h2>
+        <p class="muted">Rewards are unlocked randomly per tier (A1, A2, B1) without repeats.</p>
+        <div id="reward-list"></div>
+      </section>
+    </main>
+
+    <footer>
+      <small>All data is saved locally in your browser. No external account required.</small>
+    </footer>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
